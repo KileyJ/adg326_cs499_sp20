@@ -1,0 +1,53 @@
+﻿Below is my raw data for running my afl fuzzer with the command prompt listed under command_line. I did not run mine for very long, about a minute or so, just to get a few dozen cycles going. This is not ideal, as fuzzing typically takes a lot longer. I also could not get mine to find any new paths. There were no crashes or hangs either. My cpu load was small for my run as well, only reaching 8%. The function I used was rather simple, only adding two integers together of a random value, so there was little room for error. It is also difficult to give the function odd inputs, as there are no real conditions it will cause issues for.
+
+
+start_time        : 1581970069
+last_update       : 1581970171
+fuzzer_pid        : 20341
+cycles_done       : 66
+execs_done        : 18403
+execs_per_sec     : 177.73
+paths_total       : 1
+paths_favored     : 1
+paths_found       : 0
+paths_imported    : 0
+max_depth         : 1
+cur_path          : 0
+pending_favs      : 0
+pending_total     : 0
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 0.01%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 0
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 18403
+exec_timeout      : 40
+afl_banner        : afl_cfunction
+afl_version       : 2.52b
+target_mode       : default
+command_line      : afl-fuzz -i ./in/ -o ./results/ ./afl_cfunction
+
+
+# unix_time, cycles_done, cur_path, paths_total, pending_total, pending_favs, map_size, unique_crashes, unique_hangs, max_depth, execs_per_sec
+1581970070, 0, 0, 1, 1, 1, 0.01%, 0, 0, 1, 86.02
+1581970080, 2, 0, 1, 0, 0, 0.01%, 0, 0, 1, 185.09
+1581970085, 6, 0, 1, 0, 0, 0.01%, 0, 0, 1, 197.26
+1581970090, 10, 0, 1, 0, 0, 0.01%, 0, 0, 1, 200.27
+1581970095, 14, 0, 1, 0, 0, 0.01%, 0, 0, 1, 199.90
+1581970101, 18, 0, 1, 0, 0, 0.01%, 0, 0, 1, 186.81
+1581970106, 22, 0, 1, 0, 0, 0.01%, 0, 0, 1, 181.16
+1581970111, 25, 0, 1, 0, 0, 0.01%, 0, 0, 1, 180.88
+1581970116, 29, 0, 1, 0, 0, 0.01%, 0, 0, 1, 179.00
+1581970121, 32, 0, 1, 0, 0, 0.01%, 0, 0, 1, 175.58
+1581970126, 36, 0, 1, 0, 0, 0.01%, 0, 0, 1, 178.97
+1581970131, 39, 0, 1, 0, 0, 0.01%, 0, 0, 1, 177.69
+1581970136, 43, 0, 1, 0, 0, 0.01%, 0, 0, 1, 174.03
+1581970142, 47, 0, 1, 0, 0, 0.01%, 0, 0, 1, 177.81
+1581970147, 50, 0, 1, 0, 0, 0.01%, 0, 0, 1, 173.77
+1581970152, 53, 0, 1, 0, 0, 0.01%, 0, 0, 1, 166.34
+1581970157, 57, 0, 1, 0, 0, 0.01%, 0, 0, 1, 176.75
+1581970162, 61, 0, 1, 0, 0, 0.01%, 0, 0, 1, 176.76
+1581970167, 64, 0, 1, 0, 0, 0.01%, 0, 0, 1, 176.56
