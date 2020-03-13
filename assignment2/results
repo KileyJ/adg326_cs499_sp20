@@ -1,1 +1,6 @@
-results
+This homework proved quite difficult for myself and the classmates I was working with. First, we had to figure out how to install both 
+docker and deepstate, which involved us creating virtual machines. Ours kept running out of space, so we had to keep making new ones and
+restarting the whole process over again. Eventually after a few days I got deepstate installed and working.
+
+The library I found is for helping with the creation and management of data stuctures, in particular that of kdtrees. The library came
+with one C and one Header file, simplyfying the process of compiling them. From here though, I was at a loss of what to do. 
