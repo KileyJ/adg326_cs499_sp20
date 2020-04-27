@@ -1,3 +1,3 @@
-unfinished push
+unfinished push: TODO upload libfuzzer results and finish write up
 
 I wrote out the fuzzer for both afl and libfuzzer using the same library I used in homework assignment two. However, I am having quite a hard time figuring out how to get these to properly compile so I can fuzz the code. I still wanted to show myself using 4 different fuzzers, and am using the singular function I used in homework one to achieve this. 
